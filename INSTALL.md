@@ -13,7 +13,12 @@ This is the English install guide for the OpenCode Feishu reminder workflow.
   - duration
   - full reply summary
 - Automatically starts `opencode web`
-- Feishu-only notifications; no local popup or terminal fallback
+
+## Why this approach
+
+- No extra permissions beyond your existing Feishu bot webhook
+- Lightweight flow saves tokens compared with heavier helper workflows
+- Easy to share: one install guide is enough
 
 ## Where to install
 

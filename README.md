@@ -29,7 +29,12 @@ Please install OpenCode Feishu completion reminders for me using this `INSTALL.m
 - 1-minute threshold
 - Feishu message includes session title, `sessionID`, SSH source, duration, and full reply summary
 - Feishu card button opens `opencode web`
-- No local popup or terminal fallback
+
+## Why this approach
+
+- No extra permissions needed beyond your existing Feishu bot webhook
+- Keeps the flow lightweight and saves tokens compared with heavier helper workflows
+- Easy to share: one install guide, one reminder workflow
 
 ## Files
 
