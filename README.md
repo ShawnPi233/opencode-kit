@@ -12,13 +12,19 @@ OpenCode 飞书完成提醒的单文件安装包。 / A single-file install pack
 ### 这个项目是什么
 
 - 这是 `OpenCode` 飞书提醒方案的分享仓库
-- 核心内容都放在 `INSTALL.md`
-- 你只需要把这个 `md` 按文档安装到自己的 `opencode` 配置目录，就能完成部署
+- 核心内容都放在 `INSTALL.md`（中文）和 `INSTALL_EN.md`（English）
+- 你只需要把对应语言的 `md` 按文档安装到自己的 `opencode` 配置目录，就能完成部署
 
 ### 一句话安装
 
 ```text
 请帮我根据这个 `INSTALL.md` 安装 OpenCode 飞书完成提醒。
+```
+
+英文版提示词：
+
+```text
+Please install OpenCode Feishu completion reminders for me using this `INSTALL_EN.md`.
 ```
 
 ### 安装后做什么
@@ -36,7 +42,8 @@ OpenCode 飞书完成提醒的单文件安装包。 / A single-file install pack
 
 ### 文件说明
 
-- `INSTALL.md`：完整安装说明
+- `INSTALL.md`：中文完整安装说明
+- `INSTALL_EN.md`：English install guide
 - 适合直接分享给别人，让别人按文档完成安装
 
 ## English
