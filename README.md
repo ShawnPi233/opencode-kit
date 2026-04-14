@@ -2,6 +2,11 @@
 
 OpenCode Feishu completion reminder package.
 
+## Language
+
+- 中文版：[`README-zh.md`](./README-zh.md)
+- English: [`README.md`](./README.md)
+
 ## What this is
 
 - A shared repository for the OpenCode Feishu reminder workflow

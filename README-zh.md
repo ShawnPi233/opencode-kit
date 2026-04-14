@@ -2,6 +2,11 @@
 
 OpenCode 飞书完成提醒安装包。
 
+## 语言切换
+
+- 中文版：[`README-zh.md`](./README-zh.md)
+- English: [`README.md`](./README.md)
+
 ## 这个项目是什么
 
 - 这是 `OpenCode` 飞书提醒方案的分享仓库
