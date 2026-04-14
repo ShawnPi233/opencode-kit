@@ -5,13 +5,13 @@ OpenCode 飞书完成提醒安装包。
 ## 这个项目是什么
 
 - 这是 `OpenCode` 飞书提醒方案的分享仓库
-- 安装说明分别放在 `INSTALL.md`（中文）和 `INSTALL_EN.md`（English）
+- 安装说明分别放在 `INSTALL.md`（English）和 `INSTALL-zh.md`（中文）
 - 按对应语言的安装说明配置，就能完成部署
 
 ## 一句话安装
 
 ```text
-请帮我根据这个 `INSTALL.md` 安装 OpenCode 飞书完成提醒。
+请帮我根据这个 `INSTALL-zh.md` 安装 OpenCode 飞书完成提醒。
 ```
 
 ## 安装后做什么
@@ -29,5 +29,5 @@ OpenCode 飞书完成提醒安装包。
 
 ## 文件说明
 
-- `INSTALL.md`：中文完整安装说明
-- `INSTALL_EN.md`：English install guide
+- `INSTALL-zh.md`：中文完整安装说明
+- `INSTALL.md`：English install guide

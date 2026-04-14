@@ -5,13 +5,13 @@ OpenCode Feishu completion reminder package.
 ## What this is
 
 - A shared repository for the OpenCode Feishu reminder workflow
-- The setup guide lives in `INSTALL_EN.md`
+- The setup guide lives in `INSTALL.md`
 - Use the install guide to install the reminder into your `opencode` config
 
 ## One-line install
 
 ```text
-Please install OpenCode Feishu completion reminders for me using this `INSTALL_EN.md`.
+Please install OpenCode Feishu completion reminders for me using this `INSTALL.md`.
 ```
 
 ## After install
@@ -28,5 +28,5 @@ Please install OpenCode Feishu completion reminders for me using this `INSTALL_E
 
 ## Files
 
-- `INSTALL_EN.md`: English install guide
-- `INSTALL.md`: Chinese install guide
+- `INSTALL.md`: English install guide
+- `INSTALL-zh.md`: Chinese install guide
