@@ -1,8 +1,14 @@
-# opencode-kit
-
-<img src="./statics/logo.png" alt="opencode-kit logo" width="280" />
-
-OpenCode 安装包与配置模板集合。
+<div align="center">
+  <p>
+    <img src="./statics/logo.png" alt="opencode-kit logo" width="220" />
+  </p>
+  <h1>opencode-kit</h1>
+  <p>OpenCode 安装包与配置模板集合。</p>
+  <p>
+    <a href="./packages/feishu-reminder/README-zh.md">Feishu Reminder</a> •
+    <a href="./packages/session-name-prompt-right/README-zh.md">Session Name Prompt Right</a>
+  </p>
+</div>
 
 ## 语言切换
 
@@ -17,8 +23,8 @@ OpenCode 安装包与配置模板集合。
 
 ## 当前包含的安装包
 
-- `packages/feishu-reminder/`：飞书完成提醒
-- `packages/session-name-prompt-right/`：在输入框右侧显示当前 session name
+- [`packages/feishu-reminder/`](./packages/feishu-reminder/README-zh.md)：飞书完成提醒
+- [`packages/session-name-prompt-right/`](./packages/session-name-prompt-right/README-zh.md)：在输入框右侧显示当前 session name
 
 ## 推荐用法
 
@@ -32,6 +38,12 @@ packages/
   feishu-reminder/
   session-name-prompt-right/
 ```
+
+## 快速开始
+
+- 打开对应安装包目录，阅读它的 `README-zh.md` 或 `README.md`
+- 把对应的 `INSTALL-zh.md` 或 `INSTALL.md` 直接作为 OpenCode 的安装提示词
+- 新增安装包时，保持 `packages/` 下统一的 `README` + `INSTALL` 结构
 
 ## 后续扩展
 

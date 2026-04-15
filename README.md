@@ -1,8 +1,14 @@
-# opencode-kit
-
-<img src="./statics/logo.png" alt="opencode-kit logo" width="280" />
-
-A collection of shareable OpenCode install packs and config templates.
+<div align="center">
+  <p>
+    <img src="./statics/logo.png" alt="opencode-kit logo" width="220" />
+  </p>
+  <h1>opencode-kit</h1>
+  <p>A collection of shareable OpenCode install packs and config templates.</p>
+  <p>
+    <a href="./packages/feishu-reminder/README.md">Feishu Reminder</a> •
+    <a href="./packages/session-name-prompt-right/README.md">Session Name Prompt Right</a>
+  </p>
+</div>
 
 ## Language
 
@@ -17,8 +23,8 @@ A collection of shareable OpenCode install packs and config templates.
 
 ## Included packages
 
-- `packages/feishu-reminder/`: Feishu completion reminders
-- `packages/session-name-prompt-right/`: show the current session name on the prompt right side
+- [`packages/feishu-reminder/`](./packages/feishu-reminder/README.md): Feishu completion reminders
+- [`packages/session-name-prompt-right/`](./packages/session-name-prompt-right/README.md): show the current session name on the prompt right side
 
 ## Recommended usage
 
@@ -32,6 +38,12 @@ packages/
   feishu-reminder/
   session-name-prompt-right/
 ```
+
+## Quick Start
+
+- Open a package folder and read its `README.md` or `README-zh.md`
+- Use the package-specific `INSTALL.md` or `INSTALL-zh.md` as the installation prompt for OpenCode
+- Keep new packages under `packages/` with the same `README` + `INSTALL` structure
 
 ## Extending the repo
 
