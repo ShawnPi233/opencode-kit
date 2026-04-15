@@ -1,6 +1,6 @@
 # opencode-kit
 
-![opencode-kit logo](./statics/logo.png)
+<img src="./statics/logo.png" alt="opencode-kit logo" width="280" />
 
 OpenCode 安装包与配置模板集合。
 
