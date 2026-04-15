@@ -394,7 +394,7 @@ export const TaskFinishPopupPlugin = async ({ directory, serverUrl }) => {
 
 ## 第三步：创建本地配置文件
 
-把下面内容保存到：
+把本地配置保存到：
 
 ```text
 ~/.config/opencode/plugins/task-finish-popup.local.json

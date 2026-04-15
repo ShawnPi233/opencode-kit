@@ -1,43 +1,37 @@
-# opencode-reminder
+# opencode-kit
 
-OpenCode 飞书完成提醒安装包。
+OpenCode 安装包与配置模板集合。
 
 ## 语言切换
 
 - 中文版：[`README-zh.md`](./README-zh.md)
 - English: [`README.md`](./README.md)
 
-## 这个项目是什么
+## 这个仓库是什么
 
-- 这是 `OpenCode` 飞书提醒方案的分享仓库
-- 安装说明分别放在 `INSTALL.md`（English）和 `INSTALL-zh.md`（中文）
-- 按对应语言的安装说明配置，就能完成部署
+- 这是一个面向 `OpenCode` 的可分享安装包仓库
+- 每个功能都放在 `packages/` 下的独立子目录
+- 每个子目录都包含 `README` 和 `INSTALL` 文档，方便直接丢给 OpenCode 或人工安装
 
-## 一句话安装
+## 当前包含的安装包
+
+- `packages/feishu-reminder/`：飞书完成提醒
+- `packages/session-name-prompt-right/`：在输入框右侧显示当前 session name
+
+## 推荐用法
+
+- 想分享某个功能时，直接发对应子目录里的 `README-zh.md` 或 `INSTALL-zh.md`
+- 想让 OpenCode 帮你安装时，直接把对应子目录的安装文档给它
+
+## 目录结构
 
 ```text
-请帮我根据这个 `INSTALL-zh.md` 安装 OpenCode 飞书完成提醒。
+packages/
+  feishu-reminder/
+  session-name-prompt-right/
 ```
 
-## 安装后做什么
+## 后续扩展
 
-- 按安装说明创建对应的 `skill`、`plugin` 和本地配置
-- 启动 `opencode` 时会自动带起 `opencode web`
-- 任务结束后会在飞书里收到提醒卡片
-
-## 主要特性
-
-- 1 分钟以上任务才提醒
-- 飞书消息包含 session 标题、`sessionID`、SSH 来源、耗时和完整回复摘要
-- 支持飞书卡片按钮跳转到 `opencode web`
-
-## 相比龙虾的优势
-
-- 不需要额外权限，只要现有飞书机器人 webhook
-- 流程更轻，少一层依赖，节省 token
-- 分享更简单：一个安装说明就够了
-
-## 文件说明
-
-- `INSTALL-zh.md`：中文完整安装说明
-- `INSTALL.md`：English install guide
+- 可以继续往 `packages/` 里加更多 OpenCode 插件、skills、workflow 模板
+- 只要保持统一结构，后续维护和分享都会比较顺手

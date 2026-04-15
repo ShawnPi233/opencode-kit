@@ -1,42 +1,37 @@
-# opencode-reminder
+# opencode-kit
 
-OpenCode Feishu completion reminder package.
+A collection of shareable OpenCode install packs and config templates.
 
 ## Language
 
 - 中文版：[`README-zh.md`](./README-zh.md)
 - English: [`README.md`](./README.md)
 
-## What this is
+## What this repository is
 
-- A shared repository for the OpenCode Feishu reminder workflow
-- The setup guide lives in `INSTALL.md`
-- Use the install guide to install the reminder into your `opencode` config
+- A shared repository of reusable OpenCode packages
+- Each feature lives in its own folder under `packages/`
+- Each package includes `README` and `INSTALL` docs for easy sharing and agent-assisted setup
 
-## One-line install
+## Included packages
+
+- `packages/feishu-reminder/`: Feishu completion reminders
+- `packages/session-name-prompt-right/`: show the current session name on the prompt right side
+
+## Recommended usage
+
+- Share a package by sending its `README-zh.md` or `INSTALL-zh.md`
+- Ask OpenCode to install a feature using the package-specific install guide
+
+## Layout
 
 ```text
-Please install OpenCode Feishu completion reminders for me using this `INSTALL.md`.
+packages/
+  feishu-reminder/
+  session-name-prompt-right/
 ```
 
-## After install
+## Extending the repo
 
-- `opencode` will auto-start `opencode web`
-- Long-running tasks will trigger a Feishu reminder card
-
-## Key features
-
-- 1-minute threshold
-- Feishu message includes session title, `sessionID`, SSH source, duration, and full reply summary
-- Feishu card button opens `opencode web`
-
-## Why this approach
-
-- No extra permissions needed beyond your existing Feishu bot webhook
-- Keeps the flow lightweight and saves tokens compared with heavier helper workflows
-- Easy to share: one install guide, one reminder workflow
-
-## Files
-
-- `INSTALL.md`: English install guide
-- `INSTALL-zh.md`: Chinese install guide
+- Add more OpenCode plugins, skills, or workflow templates under `packages/`
+- Keeping the same layout makes the repo easier to maintain and share
