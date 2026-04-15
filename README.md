@@ -1,5 +1,7 @@
 # opencode-kit
 
+![opencode-kit logo](./statics/logo.png)
+
 A collection of shareable OpenCode install packs and config templates.
 
 ## Language

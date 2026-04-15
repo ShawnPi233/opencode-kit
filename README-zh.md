@@ -1,5 +1,7 @@
 # opencode-kit
 
+![opencode-kit logo](./statics/logo.png)
+
 OpenCode 安装包与配置模板集合。
 
 ## 语言切换
