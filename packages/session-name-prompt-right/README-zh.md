@@ -25,6 +25,11 @@ OpenCode 输入框右侧 session name 显示插件。
 - title 还没取到时显示短 `sessionID`
 - session 重命名后自动刷新
 
+## 版本要求
+
+- 需要 `OpenCode >= 1.4.6`
+- 较老版本（例如 `1.2.26`）还不支持 `tui.json` 里的 `plugin` 字段，会导致插件无法加载
+
 ## 文件说明
 
 - `INSTALL-zh.md`：中文完整安装说明

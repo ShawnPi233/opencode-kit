@@ -13,7 +13,8 @@ It installs a small TUI plugin that shows the current session name on the prompt
 
 ## Prerequisites
 
-- Your OpenCode version supports TUI plugins and the `session_prompt_right` slot
+- Requires `OpenCode >= 1.4.6`, which supports loading TUI plugins from the `plugin` field in `tui.json`
+- Older versions such as `1.2.26` will still reject the `plugin` field in `tui.json`, so the plugin will not load even if the files are created correctly
 - Your OpenCode config directory is writable
 
 Run:

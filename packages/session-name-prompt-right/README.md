@@ -25,6 +25,11 @@ Please install the OpenCode session name prompt-right plugin for me using this `
 - Falls back to a short `sessionID` until the title is loaded
 - Updates automatically when the session title changes
 
+## Version requirement
+
+- Requires `OpenCode >= 1.4.6`
+- Older versions such as `1.2.26` do not support the `plugin` field in `tui.json`, so the plugin will not load
+
 ## Files
 
 - `INSTALL.md`: English install guide

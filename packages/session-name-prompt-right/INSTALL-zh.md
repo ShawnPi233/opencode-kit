@@ -19,7 +19,8 @@
 
 ## 前置条件
 
-- OpenCode 版本支持 TUI 插件和 `session_prompt_right` slot
+- 需要 `OpenCode >= 1.4.6`，该版本开始可在 `tui.json` 中使用 `plugin` 字段加载 TUI 插件
+- 较老版本（例如 `1.2.26`）即使照文档配置，也会因为不识别 `tui.json` 里的 `plugin` 字段而加载失败
 - OpenCode 配置目录可写
 
 先执行：
